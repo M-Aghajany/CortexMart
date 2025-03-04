@@ -7,6 +7,7 @@
 CortexMart follows a **microservices architecture**, leveraging an **API Gateway, message-driven communication, and independent service scaling** to ensure efficiency and reliability.
 
 ### Core Components:
+#### User Managment Domain
 - **API Gateway**: Routes client requests, handles authentication, and ensures security.
 - **Authorization Provider Service**: Manages authentication, token issuance (via Keycloak or Spring Authorization Server), and role management.
 - **Resource Service**: Protects and provides access to business-critical data.
@@ -15,9 +16,15 @@ CortexMart follows a **microservices architecture**, leveraging an **API Gateway
 - **Audit and Logging Service**: Logs events and transactions for security and compliance.
 - **Central Event Bus**: Uses **Apache Kafka** or **RabbitMQ** for event-driven microservice communication.
 
+![alt text](Documentation/UserManagment.drawio.png)
+
+#### Product Catalog
+-
+
 ## Features
 ### 1. Core Business Features
 - **User & Identity Management**: Registration, authentication (OAuth2, JWT), profile management, and role-based access control.
+
 - **Product Catalog**: CRUD operations for products, categories, and brands with advanced search and filtering.
 - **Inventory Management**: Stock tracking, restock alerts, and supplier management.
 - **Shopping Cart**: Persistent cart with session-based support for adding/removing items.
