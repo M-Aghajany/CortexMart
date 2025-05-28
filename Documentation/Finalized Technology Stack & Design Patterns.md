@@ -10,7 +10,7 @@
   - **Apache Kafka** as the central event bus for event-driven communication.
 
 - **Containerization & Orchestration:**  
-  - **Docker** for containerizing applications.  
+  - **Containered** for containerizing applications.  
   - **Kubernetes** for orchestration, scalability, and resource management.
 
 - **Security & Authentication:**  
